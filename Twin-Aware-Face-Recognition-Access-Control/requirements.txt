@@ -1,0 +1,9 @@
+opencv-python
+face-recognition
+numpy
+scikit-learn
+matplotlib
+requests
+flask
+imutils
+pickle5
