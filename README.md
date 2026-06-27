@@ -210,7 +210,7 @@ The application will:
 ---
 
 # 👨‍💻 Contributors
-- S. Deepika Sri -[]
+- S. Deepika Sri -[https://github.com/SDeepikaSri]
 - G. Akshaya-[]
 
 ---
