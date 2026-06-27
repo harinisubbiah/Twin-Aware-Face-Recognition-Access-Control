@@ -1,13 +1,4 @@
-<img width="940" height="513" alt="image" src="https://github.com/user-attachments/assets/9ce64883-7ee0-4028-b791-3a6ab1c13c74" /># 🛡️ Twin-Aware Face Recognition Access Control System using ESP32
-
-> ### An Embedded AI-powered biometric access control system that combines **Computer Vision**, **Machine Learning**, **Embedded Systems**, and **IoT** to accurately recognize individuals—including visually similar people such as twins—and perform real-time physical access control.
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv)
-![ESP32](https://img.shields.io/badge/ESP32-Embedded%20Systems-red?style=for-the-badge)
-![Machine Learning](https://img.shields.io/badge/Machine-Learning-LDA-orange?style=for-the-badge)
-![IoT](https://img.shields.io/badge/IoT-HTTP%20Communication-success?style=for-the-badge)
-
+# Twin-Aware Face Recognition Access Control System using ESP32
 ---
 
 # 📖 Overview
