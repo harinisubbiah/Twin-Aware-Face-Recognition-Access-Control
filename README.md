@@ -1,7 +1,7 @@
 # Twin-Aware Face Recognition Access Control System using ESP32
 ---
 
-# 📖 Overview
+# Overview
 
 Traditional face recognition systems perform well under normal conditions but often struggle to distinguish **highly similar individuals**, such as twins or siblings. This project addresses that limitation by introducing a **hybrid recognition pipeline** that combines deep facial embeddings with **Linear Discriminant Analysis (LDA)** to improve recognition accuracy in ambiguous cases.
 
@@ -17,33 +17,33 @@ This project demonstrates a complete **AI-enabled Embedded Access Control System
 
 ---
 
-# ✨ Features
+# Features
 
-- 🔐 AI-based Face Recognition
-- 👥 Twin-aware Recognition using Linear Discriminant Analysis (LDA)
-- 📷 Real-Time Webcam Recognition
-- 🧠 128-Dimensional Face Embeddings
-- 🎯 Automatic Similarity Detection
-- 👨‍👩‍👧 Multi-Face Recognition
-- ⭐ Known Person Priority Logic
-- 🌐 HTTP-based Communication
-- 📡 Wi-Fi Enabled Embedded System
-- 💡 ESP32-based Hardware Control
-- ⚙️ Modular Software Architecture
+- AI-based Face Recognition
+- Twin-aware Recognition using Linear Discriminant Analysis (LDA)
+- Real-Time Webcam Recognition
+- 128-Dimensional Face Embeddings
+- Automatic Similarity Detection
+- Multi-Face Recognition
+- Known Person Priority Logic
+- HTTP-based Communication
+- Wi-Fi Enabled Embedded System
+- ESP32-based Hardware Control
+- Modular Software Architecture
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 <img width="975" height="912" alt="image" src="https://github.com/user-attachments/assets/ae09f362-58e9-4d18-be26-b809a63ced88" />
 
 ---
-# 📍 Circuit Diagram 
+# Circuit Diagram 
 <img width="940" height="513" alt="image" src="https://github.com/user-attachments/assets/4cb935e9-f905-43dd-b0c5-f74a630f55d5" />
 
 ---
-# ⚙️ Software Pipeline
+# Software Pipeline
 
-## 1️⃣ Dataset Preparation
+## 1️. Dataset Preparation
 
 A structured facial image dataset is used for training.
 
@@ -51,7 +51,7 @@ Each face image is converted into a **128-dimensional embedding vector** using t
 
 ---
 
-## 2️⃣ Similarity Detection
+## 2️. Similarity Detection
 
 The system computes the average Euclidean distance between every pair of registered users.
 
@@ -59,7 +59,7 @@ Pairs whose embeddings fall below a predefined threshold are automatically marke
 
 ---
 
-## 3️⃣ Twin Recognition using LDA
+## 3️. Twin Recognition using LDA
 
 Instead of applying an expensive classifier to every recognition result, an independent **Linear Discriminant Analysis (LDA)** classifier is trained **only** for visually similar identity pairs.
 
@@ -67,7 +67,7 @@ This selective approach improves recognition accuracy while maintaining computat
 
 ---
 
-## 4️⃣ Real-Time Recognition
+## 4️.Real-Time Recognition
 
 The recognition engine performs the following operations:
 
@@ -80,7 +80,7 @@ The recognition engine performs the following operations:
 
 ---
 
-## 5️⃣ Communication Layer
+## 5️.Communication Layer
 
 Once recognition is completed, the system creates a JSON payload containing the recognized person's name and authorization status.
 
@@ -97,7 +97,7 @@ The payload is transmitted to the ESP32 over the local Wi-Fi network using an **
 
 ---
 
-# 🔌 Embedded Hardware
+# Embedded Hardware
 
 The ESP32 serves as the embedded controller responsible for executing the physical access response.
 
@@ -124,7 +124,7 @@ The ESP32 serves as the embedded controller responsible for executing the physic
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 | Category | Technology |
 |----------|------------|
@@ -140,28 +140,17 @@ The ESP32 serves as the embedded controller responsible for executing the physic
 
 ---
 
-# 🚀 Getting Started
-
-## Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/Twin-Aware-Face-Recognition.git
-```
-
----
-
 ## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
-
 ---
 
 ## Train the Recognition Model
 
 ```bash
-python train_model.py
+python training.py
 ```
 
 This generates the serialized model:
@@ -169,13 +158,12 @@ This generates the serialized model:
 ```
 face_model.pkl
 ```
-
 ---
 
 ## Run the Recognition System
 
 ```bash
-python camera_server.py
+python server.py
 ```
 
 The application will:
@@ -188,13 +176,13 @@ The application will:
 
 ---
 
-## 🔌 Hardware Prototype
+## Hardware Prototype
 
 <img width="954" height="432" alt="image" src="https://github.com/user-attachments/assets/a2728db9-8df5-48ea-b4d2-45fcef9efbd3" />
 
 ---
 
-# 📈 Project Highlights
+# Project Highlights
 
 - AI-powered Embedded System
 - Twin-aware Face Recognition
@@ -209,19 +197,19 @@ The application will:
 
 ---
 
-# 👨‍💻 Contributors
+# Contributors
 - S. Deepika Sri -[https://github.com/SDeepikaSri]
 - G. Akshaya-[]
 
 ---
 
-# 📄 License
+# License
 
 This project is licensed under the MIT License.
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 **Harini S**
 
