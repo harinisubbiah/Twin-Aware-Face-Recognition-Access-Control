@@ -182,21 +182,6 @@ The application will:
 
 ---
 
-# Project Highlights
-
-- AI-powered Embedded System
-- Twin-aware Face Recognition
-- Embedded IoT Access Control
-- Computer Vision with OpenCV
-- Machine Learning using LDA
-- Wi-Fi Communication using HTTP
-- ESP32 Web Server
-- Real-Time Hardware Response
-- Modular Software Design
-- End-to-End AI + Embedded Integration
-
----
-
 # Contributors
 - S. Deepika Sri -[https://github.com/SDeepikaSri]
 - G. Akshaya-[]
